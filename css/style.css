@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 1100px;
@@ -276,3 +276,130 @@ header .menu li a:hover{
     margin-left: 11px;
 }
 /* --Course-END-- */
+
+
+/* --Expert-Start-- */
+.expert{
+    padding: 40px 0px;
+    overflow: hidden;
+}
+.expert .box1{
+   width: 50%;
+   float: left;
+}
+.ex1{
+    background: #FF1949;
+    height: 428px;
+    padding: 130px;
+}
+.ex1 a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.ex1 hr{
+    width: 91px;
+    padding: 0.5px;
+    background: white;
+    border: none;
+}
+.ex1 h4{
+    font-size: 45px;
+    color: white;
+}
+.ex2{
+    background: url(../img/expert2.jpg);
+    background-size: cover;
+    height: 428px;
+}
+.expert .box2{
+    width: 50%;
+    float: left;
+}
+.ex3{
+    background: url(../img/expert1.jpg);
+    background-size: cover;
+    height: 428px;
+}
+.ex4{
+    background: url(../img/expert3.jpg);
+    background-size: cover;
+    height: 428px;
+    padding: 116px;
+}
+
+.ex4 h4{
+    font-size: 45px;
+}
+.ex4 a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+.ex4 hr{
+    padding: 0.5px;
+    background: black;
+    border: none;
+    width: 91px;
+}
+/* --Expert-END-- */
+
+
+/* --Teacher-Start-- */
+.teacher{
+    padding: 40px 0;
+}
+.teacher h4{
+    font-size: 45px;
+}
+.teacher hr{
+    padding: 1.5px;
+    border: none;
+    background-color: red;
+    width: 40px;
+    margin-top: 15px;
+}
+.teacher p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #333333;
+    width: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.box1{
+    width: 33.33%;
+    float: left;  
+}
+.teacher{
+    display: flex;
+    padding: 15px 0px;
+}
+.t1l img{
+    width: 142px;
+    height: auto;
+}
+.t1r{
+    padding: 20px;
+    margin-left: 15px;
+}
+.t1r h3{
+    padding-bottom: 6px;
+}
+.t1r span{
+    font-size: 15px;
+}
+.t1r i{
+    margin-top: 12px;
+}
+.t1r ul li{
+    display: inline-block;
+}
+.t1r ul li a i{
+    color: black;
+    margin-right: 5px;
+    font-size: 15px;
+}
+/* --Teacher-END-- */
+
