@@ -393,6 +393,9 @@ header .menu li a:hover{
 .t1r i{
     margin-top: 12px;
 }
+.t1r i:hover{
+    color: red;
+}
 .t1r ul li{
     display: inline-block;
 }
